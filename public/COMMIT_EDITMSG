@@ -1,0 +1,36 @@
+Complete qualified assignment Local Library
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Sun Oct 16 19:22:09 2022 -0700
+#
+# On branch main
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .gitignore
+#	new file:   docs/function-instructions.md
+#	new file:   package-lock.json
+#	new file:   package.json
+#	new file:   public/accounts.html
+#	new file:   public/books.html
+#	new file:   public/data/accounts.js
+#	new file:   public/data/authors.js
+#	new file:   public/data/books.js
+#	new file:   public/index.html
+#	new file:   public/renderers/accounts.js
+#	new file:   public/renderers/books.js
+#	new file:   public/renderers/home.js
+#	new file:   public/setup.js
+#	new file:   public/src/accounts.js
+#	new file:   public/src/books.js
+#	new file:   public/src/home.js
+#	new file:   test/accounts.test.js
+#	new file:   test/books.test.js
+#	new file:   test/fixtures/accounts.fixture.js
+#	new file:   test/fixtures/authors.fixture.js
+#	new file:   test/fixtures/books.fixture.js
+#	new file:   test/main.test.js
+#

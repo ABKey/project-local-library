@@ -30,6 +30,11 @@ function getMostPopularBooks(books) {
   }).sort((bookA, bookB) => bookB.count - bookA.count).splice(0,5)
 }
 
+// HELPER FUNCTION
+function reduceAndSort(result){
+  return result.sort((a, b) => (a.count < b.count ? 1 : -1)).splice(0,5);;
+ }
+
 function getMostPopularAuthors(books, authors) {
   const authArray = [];
   authors.forEach(author => {
@@ -43,8 +48,7 @@ function getMostPopularAuthors(books, authors) {
       count: totalBorrows,
     });
   });
-  return authArray
-  .sort((a, b) => (a.count < b.count ? 1 : -1)).splice(0,5);;
+  return reduceAndSort(authArray);
 }
 
 module.exports = {

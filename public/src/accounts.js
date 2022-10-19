@@ -17,9 +17,9 @@ function getBooksPossessedByAccount(account, books, authors) {
 
   let filteredBooks = books.filter(book =>
     book.borrows[0].returned === false && book.borrows[0].id === account.id);
-    
-  return filteredBooks.forEach(book => book['author'] = authors.find(author => 
-    author.id === book.authorId));
+    filteredBooks.forEach(book => 
+    book['author'] = authors.find(author => author.id === book.authorId));
+    return filteredBooks;
 }
 
 module.exports = {

@@ -1,12 +1,10 @@
-## Function instructions
+## Description
 
-The following functions can be completed in whichever order you choose. There are difficult problems associated with each page, so feel free to skip around as you work your way up to solving more challenging problems!
+This project is a library application that allows users to view, search, and interact with a database of books.
 
 ---
 
 ### Account functions
-
-![image.png](//res.cloudinary.com/strive/image/upload/w_1000,h_1000,c_limit/11c23e4622a87eab216668be31c759ac-image.png)
 
 #### findAccountById()
 
@@ -19,7 +17,7 @@ It returns the account object that has the matching ID.
 
 **Example:**
 
-```javascript
+```Javascript
 findAccountById(accounts, "5f446f2ecfaf0310387c9603");
 /*
   {
@@ -124,7 +122,7 @@ getBooksPossessedByAccount(account, books, authors);
 
 ### Book functions
 
-![image.png](//res.cloudinary.com/strive/image/upload/w_1000,h_1000,c_limit/9012c8115fddba330e4958c3a907bcaa-image.png)
+
 
 #### findAuthorById()
 
@@ -273,8 +271,6 @@ getBorrowersForBook(book, accounts);
 
 ## Home functions
 
-![image.png](//res.cloudinary.com/strive/image/upload/w_1000,h_1000,c_limit/6e9b6e3b27d21cff7c80cd9efec9c421-image.png)
-
 ### getTotalBooksCount()
 
 The `getTotalBooksCount()` function in `public/src/home.js` has a single parameter:
@@ -389,7 +385,7 @@ Each object in the returned array has two keys:
 - The `name` key which represents the first and last name of the author.
 - The `count` key which represents the number of times the author's books have been borrowed.
 
-Even if there is a tie, the array should contain no more than five objects.
+Array does not contain more than five objects.
 
 **Example:**
 
@@ -404,6 +400,3 @@ getMostPopularAuthors(books, authors);
   ]
 */
 ```
-### Create a helper function
-
-A helper function is a function that executes part of the logic of another function. Helper functions make your programs easier to understand by letting you give descriptive names to computations and reuse them. For this exercise, create at least one helper method for any of the functions that you implemented for this assignment.
